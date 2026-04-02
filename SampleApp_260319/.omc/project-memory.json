@@ -1,0 +1,158 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1773898620126,
+  "projectRoot": "/Users/justn/Projects/mobile/SampleApp_260319",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "react",
+        "version": "19.1.0",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.1.0",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "yarn",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": "yarn lint",
+    "devCommand": "yarn start",
+    "scripts": {
+      "start": "expo start",
+      "reset-project": "node ./scripts/reset-project.js",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "lint": "expo lint"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "app",
+      "assets",
+      "components",
+      "scripts"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "app": {
+      "path": "app",
+      "purpose": "Application code",
+      "fileCount": 1,
+      "lastAccessed": 1773898620064,
+      "keyFiles": [
+        "_layout.tsx"
+      ]
+    },
+    "assets": {
+      "path": "assets",
+      "purpose": "Static assets",
+      "fileCount": 0,
+      "lastAccessed": 1773898620066,
+      "keyFiles": []
+    },
+    "components": {
+      "path": "components",
+      "purpose": "UI components",
+      "fileCount": 6,
+      "lastAccessed": 1773898620078,
+      "keyFiles": [
+        "external-link.tsx",
+        "haptic-tab.tsx",
+        "hello-wave.tsx",
+        "parallax-scroll-view.tsx",
+        "themed-text.tsx"
+      ]
+    },
+    "constants": {
+      "path": "constants",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1773898620088,
+      "keyFiles": [
+        "theme.ts"
+      ]
+    },
+    "hooks": {
+      "path": "hooks",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1773898620092,
+      "keyFiles": [
+        "use-color-scheme.ts",
+        "use-color-scheme.web.ts",
+        "use-theme-color.ts"
+      ]
+    },
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 1,
+      "lastAccessed": 1773898620113,
+      "keyFiles": [
+        "reset-project.js"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "app/(tabs)/playground.tsx",
+      "accessCount": 6,
+      "lastAccessed": 1773899299688,
+      "type": "file"
+    },
+    {
+      "path": "app/(tabs)/playgroundStageTwo.tsx",
+      "accessCount": 6,
+      "lastAccessed": 1773899302544,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1773898660156,
+      "type": "file"
+    },
+    {
+      "path": "app.json",
+      "accessCount": 1,
+      "lastAccessed": 1773898660652,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

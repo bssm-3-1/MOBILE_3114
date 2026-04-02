@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd /tmp/MOBILE_3114_work && mkdir Playground && for item in $(ls -A | grep -vE '^\\\\.(git)$|^Playground$'); do mv \\\"$item\\\" Playground/; done && ls -A /tmp/MOBILE_3114_work/\",\"description\":...",
+  "error": "Exit code 1\nmkdir: Playground: File exists",
+  "timestamp": "2026-03-26T07:46:24.116Z",
+  "retry_count": 3
+}
